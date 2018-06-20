@@ -80,7 +80,8 @@ nav {
 }
 
 .main-navbar {
-  margin-bottom: 50px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
   background-color: rgba(105, 167, 111, 0.5);
 }
 
