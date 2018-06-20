@@ -240,7 +240,8 @@ section {
 
   .nav-option {
     flex-basis: 15%;
-    padding: 0px auto;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .section-content-wrapper > .card {
