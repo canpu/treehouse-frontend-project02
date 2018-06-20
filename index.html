@@ -2,47 +2,116 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Can Pu</title>
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Song+Myung" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header>
-      <nav role="main-navbar">
-        <ul>
-          <li><h1 role="webpage-heading">Student Name</h1></li>
-          <li>HOME</li>
-          <li>PORTFOLIO</li>
-          <li>CONTACT</li>
+    <header id="home-section" class="section">
+      <nav class="main-navbar">
+        <ul class="nav-list flex-horizontal">
+          <li class="nav-heading"><h1>Can Pu</h1></li>
+          <li class="nav-option"><a href="#home-section">home</a></li>
+          <li class="nav-option"><a href="#portfolio-section">portfolio</a></li>
+          <li class="nav-option"><a href="#skill-section">skills</a></li>
+          <li class="nav-option"><a href="#contact-section">contact</a></li>
         </ul>
       </nav>
-      <picture>
-        <source />
-        <img role="profile"/>
-      </picture>
+      <figure class="profile-wrapper">
+        <img class="profile" src="images/responsive-layout-profile.png" title="profile" alt="profile image"/>
+      </figure>
+      <p>
+        Hi! I'm a front-end developer who loves responsive design and css.
+        I am taking the techdegree in front-end web developement at Treehouse
+        and am happy to show the skills I have mastered!
+      </p>
     </header>
-    <main>
-      <section>
-        <header>
+    <main class="flex-vertical">
+      <section id="portfolio-section" class="section flex-vertical">
+        <header class="section-heading-wrapper">
           <h2>portfolio</h2>
         </header>
-        <div class="wrapper" role="portfolio-wrapper">
-          <div class="card">
+        <div class="section-content-wrapper flex-horizontal">
+          <div class="card flex-vertical">
+            <img src="images/portfolio-1.png" title="marketing page" alt="marketing page image">
+            <h3>Marketing Page</h3>
+            <p>This project shows the front page of a marketing website meant for a specific business I am intereted in.</p>
+          </div>
+          <div class="card flex-vertical">
+            <img src="images/portfolio-2.png" title="search page" alt="search page image">
+            <h3>Search Page</h3>
+            <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+          </div>
+          <div class="card flex-vertical">
+            <img src="images/portfolio-3.png" title="travel app" alt="travel app image">
+            <h3>Travel App</h3>
+            <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+          </div>
+          <div class="card flex-vertical">
+            <img src="images/portfolio-4.png" title="map of facorite spots" alt="a map image">
+            <h3>Map of Favorite Spots</h3>
+            <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+          </div>
+          <div class="card flex-vertical">
+            <img src="images/portfolio-5.png" title="photo gallery" alt="photo gallery image">
+            <h3>Photo Gallery</h3>
+            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+          </div>
+          <div class="card flex-vertical">
+            <img src="images/portfolio-6.png" title="calculator" alt="calculator image">
+            <h3>Calculator</h3>
+            <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+          </div>
+      </section>
+      <section id="skill-section" class="section flex-vertical">
+        <header class="section-heading-wrapper">
+          <h2>skills</h2>
+        </header>
+        <div class="section-content-wrapper flex-horizontal">
+          <div class="card flex-vertical">
+            <h3>Programming Language</h3>
+            <ul class="skill-list flex-vertical">
+              <li>C</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>Java</li>
+            </ul>
+          </div>
+          <div class="card flex-vertical">
+            <h3>Front End</h3>
+            <ul class="skill-list flex-vertical">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+            </ul>
           </div>
         </div>
       </section>
-      <section>
-        <header>
+      <section id="contact-section" class="section flex-vertical">
+        <header class="section-heading-wrapper">
           <h2>contact</h2>
         </header>
-        <p>If you are interestedd in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-        <p>Phone <span>+1(111)555-1234</span></p>
-        <p>Email <span>email@yoursite.com</span></p>
+        <div class="flex-vertical section-content-wrapper">
+          <p>If you are interestedd in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+          <p>Phone <strong>+1(111)555-1234</strong></p>
+          <p>Email <strong><a href="mailto:pucanmail@gmail.com">pucanmail@gmail.com</a></strong></p>
+        </div>
       </section>
     </main>
     <footer class="main-footer">
-      <h3>Student Name</h3>
-      <button>BACK TO TOP</button>
+      <nav>
+        <ul class="nav-list flex-horizontal">
+          <li class="nav-heading"><h3>Can Pu</h3></li>
+          <li class="nav-option hide-lg-screen"><a href="#top">back to top</a></li>
+          <li class="nav-option hide-sm-screen"><a href="#home-section">home</a></li>
+          <li class="nav-option hide-sm-screen"><a href="#portfolio-section">portfolio</a></li>
+          <li class="nav-option hide-sm-screen"><a href="#skill-section">skills</a></li>
+          <li class="nav-option hide-sm-screen"><a href="#contact-section">contact</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
