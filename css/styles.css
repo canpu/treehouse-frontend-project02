@@ -27,6 +27,10 @@ h1, h2, h3,
   font-size: 110%;
 }
 
+p, #skill-section li {
+  color: rgb(115, 118, 192);
+}
+
 h1, h2 {
   text-transform: uppercase;
 }
