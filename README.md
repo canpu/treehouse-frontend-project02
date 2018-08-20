@@ -1,4 +1,5 @@
-# treehouse-frontend-project02 - Mobile first responsive layout
+# treehouse-frontend-project02
+TreeHouse FrontEnd Project 2 - Mobile first responsive layout
 
 [Click here](https://canpu.github.io/treehouse-frontend-project02/) to view the demo
 
