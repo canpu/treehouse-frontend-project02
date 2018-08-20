@@ -2,7 +2,7 @@
 
 [Click here](https://canpu.github.io/treehouse-frontend-project02/) to view the demo
 
-![](images/project-2.gif)
+![](images/project-02.gif)
 
 ## Brief Introduction
 
