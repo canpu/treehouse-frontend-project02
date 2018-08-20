@@ -1,4 +1,4 @@
-# treehouse-frontend-project02
+# treehouse-frontend-project02 - Mobile first responsive layout
 
 [Click here](https://canpu.github.io/treehouse-frontend-project02/) to view the demo
 
@@ -6,7 +6,8 @@
 
 ## Brief Introduction
 
-* 
+* The webpage has adopted a mobile first responsive design.
+* The layout is made by CSS floats.
 
 ## Techniques Involed
 
